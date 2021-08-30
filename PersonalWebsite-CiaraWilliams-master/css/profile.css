@@ -1,0 +1,80 @@
+body {
+  background-color: rgb(206, 224, 245);
+}
+
+.image {
+  border: 1px solid #ddd;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.Demographics,
+.Demographics th,
+.Demographics td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+
+P {
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+div.center {
+  text-align: center;
+}
+ul {
+  display: inline-block;
+  text-align: left;
+  font-size: 1.5em;
+}
+
+.internalLinks,
+.internalLinks th,
+.internalLinks td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #5fbcdb;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  font-size: 1.2em;
+}
+
+.return {
+  padding-top: 10px;
+}
+
+button {
+  font-size: large;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: rgb(206, 224, 245);
+  }
+}

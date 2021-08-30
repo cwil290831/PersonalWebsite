@@ -1,0 +1,63 @@
+body {
+  background-color: honeydew;
+}
+
+.btn1 {
+  background-color: green;
+  padding: 25px 42px;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  margin-right: -50%;
+  margin-bottom: auto;
+  margin-top: auto;
+  transform: translate(-50%, -50%);
+}
+
+.btn1[value="Go to LinkedIn"] {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.Resume > thead,
+.Resume td,
+.Resume th,
+.Resume tr {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #c6d8df;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.Resume > tbody {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: #c6d8df;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  text-align: center;
+  font-size: 1.2em;
+}
+.return {
+  padding-top: 10px;
+}
+
+button {
+  font-size: large;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    background-color: honeydew;
+  }
+}
